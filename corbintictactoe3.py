@@ -1,6 +1,9 @@
+#this is a basic tictactoe game in pygame
+#libraries 
 import pygame
 import time
 
+#setup variables 
 background = (0,0,0)
 white_color = (255,255,255)
 blue_color = (0,0,255)
@@ -8,7 +11,7 @@ red_color = (255,0,0)
 position_location = [[(213,120),(639,120),(1065,120)],[(213,360),
 (640,360),(1065,360)],[(213,600),(639,600),(1065,600)]]
 
-#setup function
+#setup function and variables for the gamestate
 def setup():
     pygame.init()
     pygame.font.init()
