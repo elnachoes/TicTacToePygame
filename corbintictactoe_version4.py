@@ -24,7 +24,7 @@ class Game:
         self.clock = pygame.time.Clock()
         self.position_stored = [[0 for x in range(3)] for y in range(3)]
     '''
-    def setup(self):
+    #def setup(self):
         
 
     def draw(self):
